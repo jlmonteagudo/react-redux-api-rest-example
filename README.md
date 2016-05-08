@@ -1,8 +1,3 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-
 ##Action Creator
 
 En primer lugar creamos la acción (en realidad es un action creator), que es donde se encuentra el código encargado de conectarse al API. Como vamos a realizar una llamada asíncrona, en lugar de devolver un simple objeto JSON, nuestro action creator va a tener que devolver una función. Esta función la va a tener que procesar un middleware, redux-thunk. Por lo tanto vamos a tener que intalar este middleware, y también vamos a instalar el módulo axios para realizar peticiones HTTP. El código de nuestro action creator quedaría definido de la siguiente forma:
